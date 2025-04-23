@@ -1,0 +1,41 @@
+# Vehicle Detection System Configuration
+
+# Input source (0 for webcam, or path to video file)
+input: "0"
+
+# Detection settings
+detection:
+  model: "yolov8n"  # YOLOv8 nano model
+  confidence_threshold: 0.5
+  classes: [2, 3, 5, 7]  # car, motorcycle, bus, truck
+
+# Speed estimation
+speed:
+  limit_kmh: 50.0  # Speed limit in km/h
+  distance_calibration: 10.0  # Real-world distance in meters that corresponds to specific pixel distance
+  max_tracking_age: 30  # Maximum number of frames to keep tracking an object after it disappears
+
+# License plate recognition
+license_plate:
+  min_confidence: 0.5
+  min_plate_size: [60, 20]  # Minimum width and height for license plate candidates
+
+# System settings
+system:
+  location: "Main Street"
+  fps: 30  # Will be updated with actual value from camera
+  output_dir: "output"
+  
+# Database settings
+database:
+  path: "sqlite:///violations.db"
+
+# Email notification (uncomment and fill to enable)
+notification:
+  enabled: false
+  # sender: "your_email@example.com"
+  # recipient: "recipient@example.com"
+  # smtp_server: "smtp.example.com"
+  # smtp_port: 587
+  # username: "your_username"
+  # password: "your_password"

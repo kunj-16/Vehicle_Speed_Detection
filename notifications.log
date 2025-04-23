@@ -1,0 +1,6 @@
+2025-04-22 23:31:42,551 - ViolationNotification - INFO - VIOLATION: 2025-04-22 23:31:42.551392 - License Plate: TEST123, Speed: 85.5 km/h, Limit: 60.0 km/h, Location: Test Location
+2025-04-22 23:56:22,033 - easyocr.easyocr - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-04-23 00:01:58,275 - easyocr.easyocr - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-04-23 00:07:32,407 - easyocr.easyocr - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-04-23 00:15:35,093 - easyocr.easyocr - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-04-23 21:48:59,209 - easyocr.easyocr - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
